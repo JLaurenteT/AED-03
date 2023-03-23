@@ -11,13 +11,13 @@ public class Ejercicio1parte2 {
         DiasSemana diaS = DiasSemana.valueOf(dia.toUpperCase());
         switch (diaS) {
             case LUNES:
-                horario="11:30-1:30am\tADS\n1:30-3:00pm\tEDA\n3:00-4:30pm\tSIA\n7:00-9:00pm\tEDA\n";
+                horario="11:30-1:30am\tADS\n1:30-3:00pm\tAED\n3:00-4:30pm\tSIA\n7:00-9:00pm\tAED\n";
                 break;
             case MARTES:
                 horario="7:00-9:00am\tSIA\n1:30-3:00pm\tRedes II\n";
                 break;
             case MIERCOLES:
-                horario="9:00-11:00am\tRedes II\n11:30-1:30pm\tEDA\n1:30-3:00pm\tADS\n5:00-7:00pm\tADS\n7:00-9:00pm\tEDA\n";
+                horario="9:00-11:00am\tRedes II\n11:30-1:30pm\tAED\n1:30-3:00pm\tADS\n5:00-7:00pm\tADS\n7:00-9:00pm\tAED\n";
                 break;
             case JUEVES:
                 horario="11:00-1:00pm\tRedes II";
